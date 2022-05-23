@@ -4,7 +4,28 @@
     box-sizing: border-box;
 
 }
+/* Generics */
+.p-relative{
+    position: relative;
+}
 
+.p-fixed{
+    position:fixed;
+}
+
+.p-absolute{
+    position: absolute;
+}
+.d-flex{
+    display: flex;
+}
+
+.container-1500{
+    width: 1500px;
+}
+.container-1200{
+    width: 1200px;
+}
 body{
     font-family: font-family: 'Open Sans', sans-serif;
 }
