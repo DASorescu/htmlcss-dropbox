@@ -289,6 +289,38 @@ div > h3{
 
 /* SEZIONE OPERAZIONI IN DROPBOX */
 
-.Dbox-operations{
+
+
+
+
+/* SEZIONE  CLIENTS */
+.cl-section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.cl-section-title a{
+    color: #0161FF;
+    text-decoration: underline;
+}
+
+.cl-logos-col{
+    flex-wrap: wrap;
+
+
+    border: 1px solid #000;
+    height: calc(100vw / 3);
+    width:calc(100vw / 3);
     
+}
+
+.logo-space{
+    justify-content: center;
+    border: 2px dashed darkblue;
+    width: 50%;
+}
+
+.smll-sq-logo{
+    align-self: center;
+    display: block;
+    width: 50%;
 }
