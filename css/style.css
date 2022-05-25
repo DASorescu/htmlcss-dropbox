@@ -25,11 +25,11 @@
     display: flex;
 }
 
-.container-1000{
-    width: 1000px;
+.big-container{
+    width: 1200px;
 }
-.container-900{
-    width: 900px;
+.smll-container{
+    width: 1000px;
 }
 .w-30{
     width: 30%;
@@ -69,7 +69,9 @@ a{
     color: #fff;
     display: block;
     background-color: var(--blue-button);
-    padding: 5px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    height: fit-content;
   
 }
 
@@ -81,10 +83,15 @@ h2{
 
 
 .row{
+    height: 100%;
     display: flex;
-    
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
 
-
+img{
+    width: 100%;
 }
 
 /* header */
@@ -152,26 +159,20 @@ h1{
     flex-direction: column;
 }
 
-.begin-button{
-    text-align: center;
-    width: 65%;
-    height: 35px;
-   
+
+
+.col-image{
+    width: 70%;
 }
 
-.jumbo-image{
-    height: 400px;
-    
-}
 .fa-arrow-down{
     margin-top: 52px;
 }
 
 /* Main */
 .col{
-    height: 100%;
-    width: calc(100% / 3);
-
+    min-height: 100%;
+    width: calc(100% / 3 - 20px);
 }
 
 .card{
@@ -190,7 +191,7 @@ h1{
 .plan-info{
     flex-direction: column;
     flex-wrap: wrap;
-    width: calc(100% / 3 );
+    width: calc(100% / 3);
     border: 1px solid #dedede;
     padding: 15px 20px;
 }
@@ -212,6 +213,7 @@ h4{
 
 .card-body{
     padding: 20px;
+    line-height: 25i px;
 }
 
 
@@ -228,7 +230,52 @@ ul li p{
 }
 
 
+span a {
+    color: #0161FF;
+    text-decoration: underline;
+}
+h5{
+  margin-top:30px ;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
 .fa-check{
     font-size: 20px;
     color: #167FFF;
+}
+.row .enterprise-col{
+    width: 100%;
+}
+.enterprize-col{
+    height: 100%;
+    width: 100%;
+}
+.enterprise-card{
+    height: 200px;
+    width: 100%;
+    border: 1px solid #dedede;
+    
+}
+.ec-head{
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+}
+
+.ec-body{
+    justify-content: space-between;
+    padding: 20px 40px ;
+
+}
+div > h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.ptn-image{
+    padding-right: 30px;
+}
+
+.ptn-contact{
+    padding-top: 30px;
 }
