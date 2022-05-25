@@ -27,9 +27,11 @@
 
 .big-container{
     width: 1200px;
+    margin: 0 auto;
 }
 .smll-container{
     width: 1000px;
+    margin: 0 auto;
 }
 .w-30{
     width: 30%;
@@ -51,8 +53,9 @@
 
 /* Generics */
 body{
+    font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 li{
@@ -69,7 +72,7 @@ a{
     color: #fff;
     display: block;
     background-color: var(--blue-button);
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-align: center;
     height: fit-content;
   
@@ -80,6 +83,9 @@ h2{
     margin-bottom: 30px;
 }
 
+img{
+    width: 100%;
+}
 
 
 .row{
@@ -90,11 +96,12 @@ h2{
     flex-wrap: wrap;
 }
 
-img{
-    width: 100%;
+.col{
+    min-height: 100%;
+    width: calc(100% / 3 - 20px);
 }
 
-/* header */
+/*HEADER*/
 header{
     width: 100%;
     margin-bottom:150px;
@@ -139,7 +146,7 @@ header{
 .bottom-head{
     width: 100%;
     background-color: #B4D0E7;
-    height: 700px;
+    height: 750px;
     margin-top: 70px;
     margin-bottom: 100px;
 }
@@ -149,11 +156,11 @@ header{
 }
 
 h1{
-    
-    font-size: 65px;
+    font-size: 75px;
+    margin-top: 35px;
 }
 .jumbo-content{
-    padding-top: 130px
+    padding-top: 65px
 }
 .description{
     flex-direction: column;
@@ -169,12 +176,9 @@ h1{
     margin-top: 52px;
 }
 
-/* Main */
-.col{
-    min-height: 100%;
-    width: calc(100% / 3 - 20px);
-}
+/* NAIN */
 
+/* PLAN CARDS */
 .card{
     height: 100%;
     border: 1px solid #dedede;
@@ -243,6 +247,8 @@ h5{
     font-size: 20px;
     color: #167FFF;
 }
+
+/* ENTERPRIZE CARD */
 .row .enterprise-col{
     width: 100%;
 }
@@ -251,7 +257,7 @@ h5{
     width: 100%;
 }
 .enterprise-card{
-    height: 200px;
+    height: 250px;
     width: 100%;
     border: 1px solid #dedede;
     
@@ -278,4 +284,11 @@ div > h3{
 
 .ptn-contact{
     padding-top: 30px;
+}
+
+
+/* SEZIONE OPERAZIONI IN DROPBOX */
+
+.Dbox-operations{
+    
 }
