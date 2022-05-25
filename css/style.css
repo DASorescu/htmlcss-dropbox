@@ -415,7 +415,9 @@ div > h3{
     border-bottom: 1px solid #000;
     line-height: 100px;
 }
-
+.fa-chevron-up{
+    text-align: left;
+}
 
 /* FOOTER */
 
