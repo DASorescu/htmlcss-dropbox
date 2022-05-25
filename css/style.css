@@ -436,6 +436,20 @@ footer h4{
     font-size: 25px;
 }
 
-li>hr{
-    width: 30px;
+footer hr{
+    width: 30%;
+}
+
+
+.language{
+    color:#dedede
+}
+
+.fa-earth{
+    margin-right: 5px;
+}
+
+.fa-caret-up{
+    font-size: 15px;
+    margin-left: 5px;
 }
