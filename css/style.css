@@ -16,8 +16,6 @@
 
 .p-fixed{
     position:fixed;
-    
-    
 }  
 
 .p-absolute{
@@ -33,10 +31,6 @@
 .container-900{
     width: 900px;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
 .w-30{
     width: 30%;
 }
@@ -47,7 +41,20 @@ body{
 .mb-30{
     margin-bottom: 30px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.il-b{
+    display: inline-block;
+}
+
 /* Generics */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
 li{
     list-style-type: none;
 }
@@ -60,10 +67,9 @@ a{
 
 .btn{
     color: #fff;
-    display: inline-block;
+    display: block;
     background-color: var(--blue-button);
     padding: 5px 10px;
-  
   
 }
 
@@ -72,10 +78,14 @@ h2{
     margin-bottom: 30px;
 }
 
-.fa-user{
-    display: inline-block;
-}
 
+
+.row{
+    display: flex;
+    
+
+
+}
 
 /* header */
 header{
@@ -158,6 +168,16 @@ h1{
 }
 
 /* Main */
+.col{
+    height: 100%;
+    width: calc(100% / 3);
+
+}
+
+.card{
+    height: 100%;
+    border: 1px solid #dedede;
+}
 
 .become-partner{
     margin: 0 auto;
@@ -175,28 +195,38 @@ h1{
     padding: 15px 20px;
 }
 
-.col-head{
-    font-weight: 200;
-    font-size: 13px;
-    height: fit-content;
-    padding: 10px 20px;
-    width: 100%;
+.card-head{
+    font-size: 15px;
+    padding: 10px 15px;
     text-align: center;
     border-bottom: 1px solid #dedede;
     
 }
+div .card-head span{
+    margin: 0 auto;
+}
 h4{
-    font-weight: 300;
+    font-weight: 700;
+    font-size: 20px;
 }
-.info{
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.card-body{
+    padding: 20px;
 }
-.column-hr{
-    color: #dedede;
-    width: 20%;
+
+
+ul li{
+    padding: 2px 4px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+
 }
+
+ul li p{
+    margin-left :5px;
+}
+
 
 .fa-check{
     font-size: 20px;
