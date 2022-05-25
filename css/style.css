@@ -39,7 +39,9 @@
 .w-70{
     width: 70%;
 }
-
+.mb-150{
+    margin-bottom: 150px;
+}
 .mb-30{
     margin-bottom: 30px;
 }
@@ -372,4 +374,68 @@ div > h3{
 
 .center-col p{
     margin-top: 40px;
+}
+
+
+/* PUBBLICITA */
+
+.pubblicita{
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pubblicita h2{
+    color: #61082B;
+}
+
+.sx-title{
+    width: 50%;
+}
+
+.sx-btn{
+    width: 50%;
+    display: inline-block;
+}
+
+.pubblicita span  {
+    color:#000;
+    background-color: #fff;
+}
+
+/* FREQUENT QUESTIONS */
+.frequent-questions h2{
+    padding-bottom: 30px;
+    line-height: 70px;
+    border-bottom: 1px solid #000;
+    line-height: 100px;
+}
+.frequent-questions p{
+   
+    border-bottom: 1px solid #000;
+    line-height: 100px;
+}
+
+
+/* FOOTER */
+
+footer{
+
+    padding:5% 10%;
+    height: 600px;
+    color: #fff;
+    background-color: #000;
+}
+footer>div{
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: calc(100% / 5);
+}
+footer h4{
+    font-size: 25px;
+}
+
+li>hr{
+    width: 30px;
 }
