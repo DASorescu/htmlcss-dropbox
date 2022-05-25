@@ -51,6 +51,33 @@
     display: inline-block;
 }
 
+
+.bg-green{
+    background-color: #A2D39B;
+}
+.bg-dk-red{
+    background-color: #61082B;
+}
+.bg-lgt-blue{
+    background-color: #0793CE;
+}
+.bg-bright-red{
+    background-color: #FF1C1D;
+}
+.bg-red{
+    background-color: #D5001E;
+}
+.bg-soft-blue{
+    background-color: #B4D0E7;
+}
+.bg-blue{
+    background-color: #0E2481;
+}
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+
 /* Generics */
 body{
     font-weight: 400;
@@ -294,6 +321,7 @@ div > h3{
 
 
 /* SEZIONE  CLIENTS */
+
 .cl-section-title h2 {
     font-size: 40px;
     font-weight: 700;
@@ -301,13 +329,14 @@ div > h3{
 .cl-section-title a{
     color: #0161FF;
     text-decoration: underline;
+    
 }
-
+.cl-logos{
+    margin-top: 150px;
+}
 .cl-logos-col{
     flex-wrap: wrap;
 
-
-    border: 1px solid #000;
     height: calc(100vw / 3);
     width:calc(100vw / 3);
     
@@ -315,12 +344,32 @@ div > h3{
 
 .logo-space{
     justify-content: center;
-    border: 2px dashed darkblue;
     width: 50%;
 }
 
 .smll-sq-logo{
+    filter: invert(1);
     align-self: center;
     display: block;
     width: 50%;
+}
+
+.center-col{
+    padding: 45px 50px;
+}
+
+.center-col img{
+    display: block;
+    width:50%;
+    
+    
+}
+
+.center-col hr{
+    width: 20%;
+    
+}
+
+.center-col p{
+    margin-top: 40px;
 }
